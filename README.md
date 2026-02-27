@@ -3,10 +3,14 @@
 **Domain**: Travel and Tourism
 
 # **Problem Statement and Motivation** : 
-Individuals and Organizations often struggle with 
+Individuals and Organizations often struggle with :
+
 Frequent changes in visa and immigrations rules
+
 Lack of reliable, centralized travel safety information
+
 Compliance risks due to outdated or incorrect guidance
+
 Difficulty accessing verified health and regulatory guidelines
 
 Traditional chatbots generating responses on training data, may lead to hallucinations. This project addresses these challenges by combining retrieval from verified sources with generative AI to provide accurate and explainable travel intelligence.
@@ -17,8 +21,11 @@ Dynamic and up-to-date, Data privacy, High accuracy with updated information, Tr
 # **Datasets**
 
 Visa and immigration data from Kaggle
+
 U.S. immigration policy documentation from American Immigration Council
+
 Travel safety and health guidelines from Occupational Safety and Health Administration
+
 Regulatory and compliance PDFs and structured datasets
 
 # **System Architecture and pipeline**
@@ -44,20 +51,30 @@ Answer Formatting and Explainability: Provides structured, transparent, and cont
 # **Tech Stack**
 
 Programming: Python
+
 Framework: LangChain
+
 Document Loader: PyPDFLoader, UnstructuredPDFLoader
+
 Text Splitter: RecursiveCharacterTextSplitter
+
 Vector Database: Chroma
+
 LLM: Gemini
+
 Embeddings: HuggingFace Sentence Transformers
+
 Frontend: Streamlit
 
 # **User Interface and Deployment**
 
 The system includes a conversational chatbot interface that allows users to:
 Ask travel-related queries in natural language
+
 Get instant visa and compliance guidance
+
 Access safety and health recommendations
+
 Retrieve policy-based answers with sources
 
 **Performance Optimization**
